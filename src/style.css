@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'Pacifico';
+  src: url('./Pacifico-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand';
+  src: url('./Quicksand-VariableFont_wght.ttf') format('truetype');
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+#content {
+  flex-shrink: 0;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.header {
+  background-color: #DB5C57;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid black;
+  padding: 30px;
+  gap: 60px;
+}
+
+.headerBtn {
+  border: 0;
+  color: white;
+  font-family: 'Quicksand';
+  background-color: #DB5C57;
+  font-size: larger;
+}
+
+.headerBtn:hover {
+  cursor: pointer;
+  transform: translateY(-4px);
+}
+
+.headerBtn:active {
+  transform: translateY(2px);
+}
+
+.mid {
+  padding-top: 250px;
+  background-color: #A0C9D8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 140px;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.slogan {
+  font-family: 'Pacifico'; 
+  font-size: 70px;
+}
+
+.slogan2 {
+  font-family: 'Quicksand';
+  font-size: 20px;
+}
+
+.orderBtn {
+  border: 3px solid black;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 15px;
+}
+
+.orderBtn:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+.orderBtn:active {
+  transform: translateY(2px);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #DB5C57;
+  font-family: 'Quicksand';
+  border-top: 3px solid black;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+.aboutVersion {
+  padding-top: 60px;
+}
+
+.menuVersion {
+  padding-top: 60px;
+}
+
+.about {
+  font-family: 'Pacifico'; 
+  font-size: 50px;
+}
+
+.aboutinfo {
+  word-wrap: normal;
+  width: 500px;
+  font-family: 'Quicksand';
+  text-align: justify;
+}
+
+.menu {
+  
+}
+
+.sectionTitle {
+  font-family: 'Pacifico';
+  font-size: 50px;
+  border-bottom: 2px solid black;
+}
+
+.item {
+  font-family: 'Quicksand';
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.allitems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  gap: 10px;
+  margin-top: 0;
+}
